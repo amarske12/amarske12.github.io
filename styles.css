@@ -1,0 +1,21 @@
+    
+
+    body{
+        border-style: ridge;
+        text-align: center;
+    }
+        
+    h1 {
+        color:dimgray;
+        font-family:'Franklin Gothic Medium';
+    }
+    
+    .reel {
+        text-decoration: underline;
+    }
+    
+    img.basspainting {
+        height: 350px;
+        width: 350px;
+    }
+    

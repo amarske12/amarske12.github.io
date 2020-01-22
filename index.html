@@ -4,55 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>New Week 2 Homepage (with CSS)</title>
-    <!--this is adding CSS. always do in header-->
-    <style>
-    h1 {
-        color:olive;
-        font-size: 50px;
-    }
-    h2 {
-        font-size: 30px;
-    }
-    h1,h2 {
-        color: purple;
-    }
-    .good{
-        color: green;
-    }
-    .bad{
-        color: red;
-    }
-    
-    li {
-        color: orange;
-    }
-
-    </style>
-
-</head>
+    <title>Adam's Fishing Log</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles2.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bebas+Neue|Libre+Caslon+Text|Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1c6547dc58.js" crossorigin="anonymous"></script>
+  </head>
 <body>
-  <!-- This is Header level 1 -->
-  <h1>Adam's Fishing Log</h1>
-  <h2>Latest Trends, Reviews, Tactics, and Product Links</h2>
-  <!--  This is a smaller level 2 -->
-  <h3>Your one stop shop for good (not great) advice for fishing Northern Illinois and Gulf of Mexico inland waterways </h3>
-
-  <p> Get the <em> reel </em> story of what works on the water and what doesn't </p>
- 
-  <p><a href="about.html">About</a> </p>
-  <p><a href="swfloridawinter.html">SW Florida - Winter 2020</a> </p>
-  <p><a href="falltactics.html"> Fall 2019 Tactics and Reviews</a></p>
- 
-  <img src="83dbd248c6bf4049e585deff7892612d.jpg">
-
-<ul>
-<li class="bad">Winter</li>
-<li>Spring</li>
-<li class="good">Summer</li>
-<li class="good">Fall</li>
-</ul>
-
-
+    <div class="jumbotron">
+        <h1 class="display-4">Adam's Fishin' Log</h1>
+        <p class="lead">Latest Trends, Reviews, Tactics, and Product Links</p>
+        <p class="lildescr">Your 'one stop shop' for good (not great) advice for fishing Northern Illinois and Gulf of Mexico inland waterways</p>
+        <hr class="my-2">
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Southwest Florida
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="swfloridawinter.html">Winter 2020</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Freshwater
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="falltactics.html">Latest from Lake Holiday</a>
+                      <a class="dropdown-item" href="springlures.html">Must Have Lures</a>
+                    </div>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>    
+    </div>
+   
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-sm-9">
+                <div id="carouselam" class="carousel slide mt-4 pointer-event" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselam" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselam" data-slide-to="1"></li>
+                      <li data-target="#carouselam" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="swfloridawinter.html"><img src="cape coral canal fishin.jpg" class="img-fluid" alt="CapeCoral"></a>    
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5><strong>Fishing Gulf Coast Winters</strong></h5>
+                          <p>Tips and tactics from my latest trip to Southwest Florida</p>
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                        <a href="falltactics.html"> <img src="fallsmallie2.jpg" class="img-fluid" alt="Fall Tactics"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5><strong>Latest from Lake Holiday</strong></h5>
+                          <p>Successfull tactics from Sept-Nov 2019</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="springlures.html"><img src= "z-man-chatterbait-freedom-cfl.jpg" class="img-fluid" alt="Chatterbait"></a> 
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class = "thirdcarohead"> <strong>Hot Lures for 2020!</strong></h5>
+                          <p class = "thirdcarodescr"> You're cold. Think spring. The must have lures that are sure to load up your livewell this spring. </p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselam" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselam" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>    
+            <div class="col-sm-3">
+                <h1>Get the Latest</h1>
+                    <div class="card" style="width: 18rem;">
+                    <img src="Fishingexpo2020-640x400.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicagoland Expos!</h5>
+                        <p class="card-text">You're cold. Think Spring. Several Chicagoland area expos are happening now! Click here to find an upcoming show near you</p>
+                        <a href="https://chicago.suntimes.com/2019/12/18/20964816/chicago-outdoors-2020-show-season" class="btn btn-primary">Learn More</a>
+                    </div>
+            </div>
+        </div>  
+      </div>
+    </div>  
+    <hr class="my-4">   
+    <div class="bottomprayer">
+      <div class ="container">
+        <div class="row my-4">
+          <div class="col-sm-3 basspic">
+            <img src="bass silouette.png" class="img-fluid bassbl">
+          </div>  
+          <div class="col-sm-3 learnmore">
+                <h2 class= "learnmoreheader"> Favorite Follows</h2>
+                <div class="ft_social socialfoot">
+                  <a class="twtr" href="https://twitter.com/bassmaster?lang=en" target="_blank"><i class="fab fa-3x fa-twitter-square"></i></a>
+                  <a class="yt" href="https://www.youtube.com/channel/UCv8yAO6UKIzMEWCLzKnIbuA" target="_blank"><i class="fab fa-3x fa-youtube-square"></i></a>
+                  <a class="ig" href="https://www.instagram.com/tacklewarehouse/" target="_blank"><i class="fab fa-3x fa-instagram"></i></a>
+                </div>
+          </div>
+          <div class="col-sm-6 fishermanprayer">
+                <h2> The Fisherman's Prayer</h2>
+                <p> "I pray that I may live to fish until my dying day. And when it comes to my last cast, I then most humbly pray: when in the Lord's great landing net and pecefully asleep that in His mercy I be judged big enough to keep."" </p>
+          </div>
+        </div>
+      </div>
+    </div>            
 </body>
 </html>

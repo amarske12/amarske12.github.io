@@ -1,3 +1,113 @@
-body{
-    background: blue
+.display-4{ 
+    font-family: 'Bebas Neue';  
+    font-size: 128px;
+    text-shadow: 1px;
+}
+.lead{ font-family: 'Open Sans'}
+.lildescr{ font-family: 'Open Sans';
+}
+
+.hot2020header{ 
+    font-family: 'Bebas Neue';
+    text-align: center;
+    font-size: 68px;
+}
+.hot2020subhead{ 
+    font-family: 'Open Sans';
+    text-align: center; 
+ 
+}
+.aboutme{ 
+    font-family: 'Bebas Neue';
+    text-align: center; 
+}
+.ryanandi{ 
+    width: 200px;
+    height:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.all3{
+    width: 200px;
+    height:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swheader{
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 68px;
+    
+}
+.swsubhead{
+    text-align: center;
+    font-family: 'Open Sans';
+}
+.capecanal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+.swdo {
+    border: solid;
+    font-family: 'Open Sans';
+}
+.swdont{
+    border: solid;
+    font-family: 'Open Sans'
+}
+.carousel-caption{
+  font-family: 'Open Sans';
+}
+.thirdcarohead{
+    color: black;
+}
+.thirdcarodescr{
+    color: black;
+}
+.fallheader{
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 68px;
+}
+.fallsubhead{
+    text-align: center;
+    font-family: 'Open Sans'; 
+}
+.fallintro{
+    font-family: 'Open Sans';
+    text-align: left;
+}
+.fall-locations{
+    text-align: left;
+    font-family: 'Open Sans';
+}
+.fishermanprayer{
+    font-family: 'Open Sans';
+    text-align: center; 
+    font-style: italic;
+    margin-top: 30px; 
+}
+.bottomprayer{
+    background-color: #343a40;
+    color: white;
+}
+
+.bassbl{
+    text-align: center;
+    height: 200px;
+    width: auto;
+
+}
+.learnmore{
+    font-family:'Open Sans';
+    text-align: center;
+    border-right: 1px solid;
+}
+.learnmoreheader{
+    margin-top: 30px;
 }

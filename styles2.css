@@ -96,9 +96,10 @@
     background-color: #343a40;
     color: white;
 }
-
+.basspic{
+    text-align: left;
+}
 .bassbl{
-    text-align: center;
     height: 200px;
     width: auto;
 

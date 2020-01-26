@@ -35,6 +35,7 @@
 .aboutme{ 
     font-family: 'Bebas Neue';
     text-align: center; 
+    font-size: 68px;
 }
 .ryanandi{ 
     width: 200px;
@@ -142,4 +143,15 @@
 .lurelistitem{
     font-size: 20px;
     text-decoration: underline;
+}
+.cardbox{
+    text-align: center;
+    font-family: 'Open Sans'
+}
+.cardhead{
+    text-align: center;
+}
+.hot2020col{
+    font-family:'Open Sans';
+
 }
